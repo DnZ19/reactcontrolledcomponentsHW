@@ -1,1 +1,53 @@
 /*Schrijf hier jouw css voor jouw formulier*/
+
+
+body {
+    font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+    background: #3AAFAB;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container * {
+    box-sizing: border-box;
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#info-area  {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#review-area  {
+    display: flex;
+    flex-direction: column;
+
+}
+
+p   {
+    flex-direction: row;
+    width: 100%;
+}
+
+
+button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+}
