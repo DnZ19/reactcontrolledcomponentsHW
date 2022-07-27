@@ -26,12 +26,16 @@ body {
 #info-area  {
     display: flex;
     flex-direction: column;
+    border-color: orangered;
+
 }
 
 
 #review-area  {
     display: flex;
     flex-direction: column;
+    border-color: orangered;
+
 
 }
 
@@ -40,6 +44,10 @@ p   {
     width: 100%;
 }
 
+button:disabled {
+    background: rgba(51, 51, 51, 0.07);
+
+}
 
 button {
     margin-left: auto;

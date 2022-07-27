@@ -10,11 +10,9 @@ function App() {
     const [clicked, toggleClicked] = React.useState(false);
 
     function handleSubmit(event) {
-        console.log("submitted");
-        console.log(nameValue, ageValue, messageValue)
+        console.log("submitted",nameValue, ageValue, messageValue)
         toggleClicked(!clicked);
         event.preventDefault();
-
 
     }
 
